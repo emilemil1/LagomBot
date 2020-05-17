@@ -26,7 +26,8 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node out/main"
+    "start": "node out/main",
+    "build": "tsc"
   },
   "engines": {
     "node": "13.9.0"

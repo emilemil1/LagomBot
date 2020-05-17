@@ -17,7 +17,7 @@ class Ping implements Module {
         message.reply("Test!");
     }
 
-    async ping(url: string) {
+    async ping(url: string): Promise<void> {
         await fetch(url);
     }
 }
